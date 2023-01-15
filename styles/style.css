@@ -45,11 +45,6 @@ header {
     align-items: center;
 }
 
-.hamburger img {
-    height: 30px;
-    display: none;
-}
-
 .logo {
     color: var(--dark-black);
     font-weight: 700;
@@ -399,33 +394,23 @@ header a {
 ---------------------------------------------------
  **************************************************/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
     header {
         padding: 30px;
-        align-items: start;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .logo {
-        font-size: 20px;
-    }
-
-    .hamburger img {
-        display: inline;
-    }
-
-    .nav-items{
-        /* display: none; */
+        font-size: 36px;
     }
 
     ul {
         flex-direction: column;
         gap: 10px;
+        text-align: center;
     }
-
-    .hamburger:hover + .nav-items{
-        display: inline;
-    }
-
 
     .banner {
         padding: 30px;
@@ -445,9 +430,12 @@ header a {
     }
 
     .features {
-        margin: 100px 30px;
+        margin: 100px 30px 50px;
         flex-direction: column;
         gap: 30px;
+    }
+    .mb-30{
+        margin-bottom: 20px;
     }
 
     .feature-head {
@@ -526,6 +514,9 @@ header a {
         gap: 20px;
     }
 
+    .update{
+        margin-bottom: 50px;
+    }
     .email-update {
         margin: 50px auto 0;
     }
