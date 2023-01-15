@@ -520,6 +520,11 @@ header a {
 
     .sponsors {
         margin: 50px 30px;
+        text-align: left;
+    }
+    .sponsor-head {
+        font-size: 36px;
+        margin-bottom: 10px;
     }
     .sponsor-logos {
         flex-direction: column;
@@ -535,6 +540,9 @@ header a {
     }
     .email-head {
         font-size: 32px;
+    }
+    .email-text {
+        padding: 0 30px;
     }
     .news {
         flex-direction: column;
