@@ -155,6 +155,10 @@ header a {
     /* max-width: 537px; */
 }
 
+/* ******************************
+        Feature Body
+ *******************************/
+
 .feature-body {
     margin: 0 140px;
     display: flex;
@@ -164,6 +168,14 @@ header a {
 
 .feature-left {
     width: 100%;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .left-h {
@@ -181,14 +193,6 @@ header a {
     color: var(--light-black);
 }
 
-.mb-60 {
-    padding-bottom: 60px;
-}
-
-.mb-80 {
-    padding-bottom: 80px;
-}
-
 .left-head {
     font-weight: 600;
     font-size: 20px;
@@ -196,7 +200,8 @@ header a {
 }
 
 .left-section {
-    margin-left: 30px;
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .feature-right {
@@ -275,4 +280,31 @@ header a {
     color: var(--light-black);
     font-weight: 600;
     font-size: 20px;
+}
+
+/* ******************************
+        Sponsors
+ *******************************/
+
+.sponsors {
+    margin: 0 140px 130px;
+}
+
+.sponsor-head {
+    color: var(--dark-black);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-text {
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor img {
+    filter: grayscale(100%);
 }
