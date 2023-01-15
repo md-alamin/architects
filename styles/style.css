@@ -196,7 +196,7 @@ header a {
 
 .left-section {
     padding: 30px 42px 30px 30px;
-    box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
 }
 
 .feature-right {
@@ -261,11 +261,12 @@ header a {
     border: 1px solid var(--orange);
     border-radius: 8px;
     padding: 45px 35px 60px;
-    transition: all 0.4s ease;
+    transition: all 1s ease;
 }
 
 .items:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    transform: rotate(360deg);
 }
 
 .item-number {
