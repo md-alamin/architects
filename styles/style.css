@@ -251,7 +251,7 @@ header a {
 }
 
 .facts-items {
-    margin: 100px 50px 0;
+    margin: 100px 20px 0;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -403,6 +403,7 @@ header a {
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        gap: 20px;
     }
 
     .logo {
