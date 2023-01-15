@@ -1,0 +1,278 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* variables */
+:root {
+    --dark-black: #131313;
+    --light-black: #727272;
+    --white: #ffffff;
+    --orange: #ff900e;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* ------------------------------------------- Header ------------------------------------------- */
+
+/* *******************************
+        Header styling
+********************************** */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px 50px 128px;
+    background: rgba(255, 144, 14, 0.1);
+    align-items: center;
+}
+
+.hamburger img {
+    height: 30px;
+    display: none;
+}
+
+.logo {
+    color: var(--dark-black);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+header a {
+    color: var(--light-black);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ------------------------------------------- Main ------------------------------------------- */
+
+/* ******************************
+        Banner Styling
+ *******************************/
+
+.banner {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 140px 0;
+    text-align: center;
+}
+
+.banner-head {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--dark-black);
+}
+
+.banner-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--light-black);
+    padding: 30px 0;
+}
+
+.primary-btn {
+    background: var(--orange);
+    border: none;
+    color: var(--white);
+    padding: 20px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-img img {
+    width: 100%;
+    margin: 50px 0;
+}
+
+/* ******************************
+        Features Styling
+ *******************************/
+.features {
+    margin: 80px 200px 130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+
+.feature {
+    width: 75%;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-head {
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--light-black);
+}
+
+.dark-text {
+    color: var(--dark-black);
+}
+
+.orange-text {
+    color: var(--orange);
+}
+
+.feature-text {
+    color: var(--light-black);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 24px 0;
+    /* max-width: 537px; */
+}
+
+.feature-body {
+    margin: 0 140px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.feature-left {
+    width: 100%;
+}
+
+.left-h {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark-black);
+    border-left: 5px solid var(--orange);
+    margin-bottom: 24px;
+}
+
+.left-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--light-black);
+}
+
+.mb-60 {
+    padding-bottom: 60px;
+}
+
+.mb-80 {
+    padding-bottom: 80px;
+}
+
+.left-head {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-black);
+}
+
+.left-section {
+    margin-left: 30px;
+}
+
+.feature-right {
+    position: relative;
+    width: 100%;
+}
+
+.feature-right img {
+    width: 100%;
+}
+
+.big-btn-h {
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.big-btn-p {
+    font-weight: 500;
+    font-size: 1.35vw;
+}
+
+.big-btn {
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    background: var(--orange);
+    padding: 45px 20px;
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+}
+
+/* ******************************
+        Facts Styling
+ *******************************/
+.facts {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark-black);
+    margin: 180px 140px;
+}
+
+.facts-p {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--light-black);
+    margin-top: 24px;
+    max-width: 550px;
+}
+
+.facts-items {
+    margin: 100px 50px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.items {
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    padding: 45px 35px 60px;
+    transition: all 0.4s ease;
+}
+
+.items:hover {
+    transform: scale(1.05);
+}
+
+.item-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--dark-black);
+}
+
+.item-info {
+    color: var(--light-black);
+    font-weight: 600;
+    font-size: 20px;
+}
